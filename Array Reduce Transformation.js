@@ -1,19 +1,21 @@
-var reduce = function(nums, fn, init) {
-    let result = init
+// var reduce = function(nums, fn, init) {
+//     let result = init
    
     
-    // for (const n of nums) {
-    //     result = fn(result, n)
-    // }
+//     // for (const n of nums) {
+//     //     result = fn(result, n)
+//     // }
 
-    nums.forEach(element => {
-        result = fn(result, element)
-    });
+//     nums.forEach(element => {
+//         result = fn(result, element)
+//     });
 
-    return result
+//     return result
 
-    return nums.reduce(fn, init)
-};
+//     return nums.reduce(fn, init)
+// };
 
-
+const st = "i love you"
+let result = st.slice(" ")
+console.log(result)
 
